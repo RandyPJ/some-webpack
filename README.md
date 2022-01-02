@@ -1,1 +1,1 @@
-# some-webpack
+# curso-webpack
