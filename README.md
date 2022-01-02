@@ -1,1 +1,1 @@
-# curso-webpack
+# Aprendiendo a configurar webpack desde cero.
