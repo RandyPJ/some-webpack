@@ -12,7 +12,7 @@ module.exports = {
 		assetModuleFilename: "assets/images/[hash][ext][query]",
 	},
 	mode: "development",
-	watch: true,
+	devtool: "source-map",
 	resolve: {
 		extensions: [".js"],
 		alias: {
@@ -74,4 +74,9 @@ module.exports = {
 		}),
 		new DotEnv(),
 	],
+	devServer: {
+		compress: true,
+		historyApiFallback: true,
+		port: 3005,
+	},
 };
